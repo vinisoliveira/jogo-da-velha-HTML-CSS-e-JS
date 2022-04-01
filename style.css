@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    font-family: Bebas Neue;
+    background-color: rgb(177, 253, 0);
 }
 
 .quadrado{
@@ -13,22 +15,38 @@ body {
     cursor: pointer;
     color: #eee;
     border-radius: 10px;
+    font-family: Bebas Neue;
 }
 
 .jogador{
     font-size: 30px;
     margin-top: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: blue;
+
 }
+
 
 .vencedor{
     font-size: 30px;
     margin-top: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: green;
 }
 
 button{
     margin-top: 10px;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 36px;
+    font-size: 23px;
     background-color: #eee;
     cursor: pointer;
+    font-family: Bebas Neue;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
 }

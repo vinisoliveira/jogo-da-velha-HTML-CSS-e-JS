@@ -24,6 +24,7 @@ function escolherQuadrado(id){
     }else {
         jogador = 'X';
     }
+    
     mudarJogador(jogador)
     checarVitoria();
 }
