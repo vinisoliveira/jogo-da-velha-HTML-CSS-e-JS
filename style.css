@@ -7,11 +7,12 @@ body {
     width: 45px;
     background: #eee;
     display: inline-block;
-    padding: 35px;
-    font-size: 45px;
+    padding: 30px;
+    font-size: 50px;
     margin: 5px;
     cursor: pointer;
     color: #eee;
+    border-radius: 10px;
 }
 
 .jogador{
